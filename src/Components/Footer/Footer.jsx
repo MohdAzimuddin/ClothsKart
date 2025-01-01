@@ -2,7 +2,7 @@ import React from 'react';
 import { BsGithub, BsTwitter, BsWhatsapp } from 'react-icons/bs';
 import './Footer.css';
 import { MdEmail } from 'react-icons/md';
-
+ 
 const Footer = () => {
   return (
     <footer className="footer" id="contact">
