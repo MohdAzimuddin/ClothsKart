@@ -65,7 +65,7 @@
     font-weight: 700;
     cursor: pointer;
 }
-
+ 
 /* Hover effect for the "Add to Cart" button */
 .details_right button:hover {
     background: #cd853f; 
