@@ -22,7 +22,7 @@ import cloth21 from './assets/womens_classic9.jpg'
 import cloth22 from './assets/womens_classic10.jpg'
 import cloth23 from './assets/womens_classic11.jpg'
 import cloth24 from './assets/womens_classic12.jpg'
-
+ 
 
 export const productsData = [
     {
