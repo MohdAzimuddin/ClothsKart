@@ -6,7 +6,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = ({ children }) => {
   // State to manage the list of products
   const [products, setProducts] = useState(productsData);
-
+ 
   // State to manage the cart items
   const [cart, setCart] = useState([]);
 
