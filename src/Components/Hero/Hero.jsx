@@ -5,7 +5,7 @@ import { FaShippingFast } from 'react-icons/fa' // Shipping icon
 import { BiSupport } from 'react-icons/bi' // Support icon
 import { MdPayment } from 'react-icons/md' // Payment icon
 import { motion } from 'framer-motion';
-
+ 
 const Hero = () => {
   return (
     <motion.div
