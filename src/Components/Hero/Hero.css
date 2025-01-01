@@ -1,0 +1,242 @@
+/* Hero Section */
+.hero {
+    max-height: 160vh;
+}
+
+/* Top Section of Hero */
+.hero_top {
+    display: flex; 
+    padding-inline: 5rem; 
+    gap: 2rem; 
+    justify-content: space-between; 
+}
+/* Left Section - Text Content */
+.hero_left {
+    max-width: 50%; 
+    margin-top: 5rem; 
+}
+.hero_left h2 {
+    font-size: 1.5rem; 
+    font-weight: 700; 
+}
+.hero_left h1 {
+    font-size: 3.5rem; 
+    margin-top: 1rem; 
+    font-weight: 800; 
+}
+.hero_left p {
+    font-size: 1.2rem; 
+    margin-top: 1rem; 
+    color: #3f3e3e; 
+}
+
+/* Right Section - Hero Image */
+.hero_right {
+    max-width: 50%; 
+}
+.hero_right img {
+    width: 42rem; 
+    margin-top: 4rem; 
+    border: none; 
+    border-radius: 10rem; 
+    box-shadow: -1px 11px 24px 11px #07000091; 
+}
+
+/* Bottom Section - Features */
+.hero_bottom {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 5rem 0rem; 
+    width: 80%; 
+    padding: 2rem; 
+    margin-left: 7rem; 
+    border-radius: 4rem; 
+    box-shadow: -1px 11px 24px 11px #07000091; 
+}
+
+/* Individual Feature Content */
+.hero_content {
+    display: flex; 
+    gap: 2rem; 
+}
+
+/* Feature Icon */
+.info_icon .hero_cc-icon {
+    font-size: 3rem; 
+    color: #D2B48C; 
+}
+
+/* Feature Details */
+.hero_content .detail h3 {
+    font-size: 1.5rem; 
+}
+
+.hero_content .detail p {
+    font-size: 1.2rem; 
+    color: #555; 
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For Large Devices (1380px and below) */
+@media screen and (max-width: 1380px) {
+    .hero_top {
+        padding-inline: 4rem;
+        gap: 1.5rem;
+    }
+    .hero_right img {
+        width: 35rem;
+    }
+    .hero_left h2 {
+        font-size: 1.2rem; 
+        font-weight: 700; 
+    }
+    .hero_left h1 {
+        font-size: 2.5rem; 
+        margin-top: 1rem; 
+        font-weight: 800; 
+    }
+    .hero_left p {
+        font-size: 1rem; 
+        margin-top: 1rem; 
+        color: #3f3e3e; 
+    }
+    .hero_bottom{
+        max-width: 80%;
+        margin-left: 5rem;
+    }
+}
+
+/* For Medium-Large Devices (1084px and below) */
+@media screen and (max-width: 1084px) {
+   .hero_top{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center; 
+    gap:1rem;
+   }
+   .hero_left {
+    max-width: 100%; 
+
+}
+.hero_left h2 {
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    text-align: center;
+}
+.hero_left h1 {
+    font-size: 3.5rem; 
+    margin-top: 1rem; 
+    font-weight: 800; 
+    text-align: center;
+}
+.hero_left p {
+    font-size: 1.2rem; 
+    margin-top: 1rem; 
+    color: #3f3e3e; 
+    text-align: center;
+}
+
+.hero_right{
+max-width:200% ;    
+}
+
+}
+
+/* For Tablets and Small Devices (820px and below) */
+@media screen and (max-width: 820px) {
+   
+    .hero_top {
+        padding-inline: 2rem;
+    }
+    .hero_left h1 {
+        font-size: 2.5rem;
+    }
+    .hero_left p {
+        font-size: 1rem;
+    }
+    .hero_right {
+        max-width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .hero_right img {
+        width: 30rem;
+        margin-top: 2rem;
+    }
+    .hero_bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-inline: 3rem;
+        text-align: center;
+        width: 75%;
+    }
+    .hero_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .info_icon .hero_cc-icon {
+        font-size: 2.5rem;
+    }
+    .hero_content .detail h3 {
+        font-size: 1.2rem;
+    }
+    .hero_content .detail p {
+        font-size: 1rem;
+    }
+}
+
+/* For Small Devices (580px and below) */
+@media screen and (max-width: 580px) {
+    .hero_left {
+        max-width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .hero_left h1 {
+        font-size: 2rem;
+    }
+    .hero_left p {
+        font-size: 0.9rem;
+    }
+    .hero_right {
+        max-width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .hero_right img {
+        max-width: 25rem;
+        margin-top: 2rem;
+    }
+    .hero_bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-inline:1.8rem ;
+        width: 70%;
+    }
+    .hero_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .info_icon .hero_cc-icon {
+        font-size: 2rem;
+    }
+    .hero_content .detail h3 {
+        font-size: 1rem;
+    }
+    .hero_content .detail p {
+        font-size: 0.9rem;
+    }
+}

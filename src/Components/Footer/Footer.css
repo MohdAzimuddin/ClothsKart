@@ -1,0 +1,130 @@
+/* Footer styles */
+.footer {
+    background: linear-gradient(to right, #8b7d6b, #d2b48c);
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer_brand h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .footer_brand p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #e0e0e0; 
+  }
+  
+  .footer_socials {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .footer_icon {
+    font-size: 2rem;
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .footer_icon:hover {
+    color:black; 
+    transform: scale(1.2);
+  }
+  
+  .copy {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    border-top: 1px solid #fff;
+    padding-top: 1rem;
+    max-width: 1200px;
+    margin: 1.5rem auto 0;
+  }
+  
+  .copy p {
+    margin: 0;
+  }
+  
+/* Media Queries for Responsiveness */
+
+/* For Medium Devices (Tablets and Larger Mobiles) */
+@media screen and (max-width: 768px) {
+  .footer_content {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+  }
+
+  .footer_brand {
+      text-align: center;
+  }
+
+  .footer_socials {
+      justify-content: center;
+  }
+
+  .copy {
+      text-align: center;
+      border-top: none;
+  }
+}
+
+/* For Small Devices (Mobiles) */
+@media screen and (max-width: 480px) {
+  .footer_content {
+      padding: 1.5rem 0.5rem;
+  }
+
+  .footer_brand h2 {
+      font-size: 1.8rem;
+  }
+
+  .footer_brand p {
+      font-size: 0.9rem;
+  }
+
+  .footer_icon {
+      font-size: 1.5rem;
+  }
+
+  .copy {
+      font-size: 0.8rem;
+  }
+}
+
+/* For Very Small Devices (Portrait Phones) */
+@media screen and (max-width: 320px) {
+  .footer_content {
+      padding: 1rem 0.3rem;
+  }
+
+  .footer_brand h2 {
+      font-size: 1.5rem;
+  }
+
+  .footer_brand p {
+      font-size: 0.8rem;
+  }
+
+  .footer_icon {
+      font-size: 1.3rem;
+  }
+
+  .copy {
+      font-size: 0.7rem;
+  }
+}
+
+  

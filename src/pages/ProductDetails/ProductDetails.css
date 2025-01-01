@@ -1,0 +1,254 @@
+/* Styling for the main product details container */
+.product_details_info {
+    background: linear-gradient(to right bottom, #e6dac9, #f5f5dc);
+    display: flex;
+    padding: 5rem; 
+    gap: 2.2rem;
+}
+
+/* Styling for the product image in the left section */
+.detail_left img {
+    width: 27rem; 
+}
+
+/* Styling for the right section containing product details */
+.details_right {
+    padding: 4.5rem;
+}
+
+/* Styling for the product title in the right section */
+.details_right h3 {
+    font-size: 1.8rem;
+}
+
+/* Styling for the product price in the right section */
+.details_right .product_price {
+    font-size: 2rem;
+    color: #F4A460;
+    margin-top: 0.625rem; 
+    font-weight: 900;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+/* Hover effect for the product price */
+.details_right .product_price:hover {
+    color: #cd853f; 
+    transform: scale(1.1); 
+    transition: 0.5s ease-in-out;
+}
+
+/* Styling for the product description in the right section */
+.details_right .desc {
+    font-size: 1.25rem;
+    color: #302f2fc5;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+/* Hover effect for the product description */
+.details_right .desc:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out; 
+}
+
+/* Styling for the "Add to Cart" button in the right section */
+.details_right button {
+    padding: 1.2rem 3.6rem; 
+    margin-top: 2rem; 
+    border: none;
+    border-radius: 2.5rem;
+    background: #D2B48C;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Hover effect for the "Add to Cart" button */
+.details_right button:hover {
+    background: #cd853f; 
+    color: #fff; 
+    transform: scale(1.05); 
+    transition: 0.4s ease-in-out; 
+}
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For Large Screens (1380px) */
+@media (max-width: 1380px) {
+    .product_details_info {
+        padding: 4rem;
+        gap: 2rem;
+    }
+
+    .detail_left img {
+        width: 25rem;
+    }
+
+    .details_right {
+        padding: 4rem;
+    }
+
+    .details_right h3 {
+        font-size: 1.7rem;
+    }
+
+    .details_right .product_price {
+        font-size: 1.9rem;
+    }
+
+    .details_right .desc {
+        font-size: 1.2rem;
+    }
+
+    .details_right button {
+        padding: 1.1rem 3.2rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* For Medium-Large Screens (1084px) */
+@media (max-width: 1084px) {
+    .product_details_info {
+        padding: 3.5rem;
+        gap: 1.8rem;
+    }
+
+    .detail_left img {
+        width: 22rem;
+    }
+
+    .details_right {
+        padding: 3.5rem;
+    }
+
+    .details_right h3 {
+        font-size: 1.6rem;
+    }
+
+    .details_right .product_price {
+        font-size: 1.8rem;
+    }
+
+    .details_right .desc {
+        font-size: 1.1rem;
+    }
+
+    .details_right button {
+        padding: 1rem 2.8rem;
+        font-size: 1rem;
+    }
+}
+
+/* For Medium Devices (820px) */
+@media (max-width: 820px) {
+    .product_details_info {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        gap: 1.5rem;
+    }
+
+    .detail_left img {
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    .details_right {
+        padding: 3rem;
+        text-align: center; /* Center text for small layouts */
+    }
+
+    .details_right h3 {
+        font-size: 1.5rem;
+    }
+
+    .details_right .product_price {
+        font-size: 1.6rem;
+    }
+
+    .details_right .desc {
+        font-size: 1rem;
+    }
+
+    .details_right button {
+        padding: 0.9rem 2.4rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* For Small Devices (580px) */
+@media (max-width: 580px) {
+    .product_details_info {
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5rem;
+        gap: 1.2rem;
+    }
+
+    .detail_left img {
+        width: 18rem;
+    }
+
+    .details_right {
+        padding: 2.5rem;
+        text-align: center;
+    }
+
+    .details_right h3 {
+        font-size: 1.4rem;
+    }
+
+    .details_right .product_price {
+        font-size: 1.5rem;
+    }
+
+    .details_right .desc {
+        font-size: 0.95rem;
+    }
+
+    .details_right button {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* For Very Small Devices (320px) */
+@media (max-width: 320px) {
+    .product_details_info {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .detail_left img {
+        width: 15rem;
+    }
+
+    .details_right {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .details_right h3 {
+        font-size: 1.2rem;
+    }
+
+    .details_right .product_price {
+        font-size: 1.4rem;
+    }
+
+    .details_right .desc {
+        font-size: 0.85rem;
+    }
+
+    .details_right button {
+        padding: 0.7rem 1.8rem;
+        font-size: 0.85rem;
+    }
+}

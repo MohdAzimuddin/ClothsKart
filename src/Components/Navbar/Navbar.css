@@ -1,0 +1,209 @@
+/* Main Navbar Styles */
+.navbar {
+    font-family: "Poppins", serif;
+    padding: 1.5rem;
+    padding-inline: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Logo Image Styles */
+nav img {
+    width: 3rem;
+    border: none;
+    border-radius: 25%;
+}
+
+/* Logo Section Styles */
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Navbar Title Styles */
+.navbar h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+}
+
+/* Anchor Tag */
+.link ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Links Container */
+.link ul {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Individual Navigation Link Styles */
+.link ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Icon Wrapper Styles */
+.nav_icon_wrapper {
+    display: flex;
+}
+
+/* Shared Icon Styles */
+.nav_icon {
+    font-size: 2.5rem;
+    margin-left: 2.5rem;
+    color: black;
+}
+
+/* Cart Icon Container */
+.nav_cart {
+    display: flex;
+    cursor: pointer;
+}
+
+/* Cart Amount Badge Styles */
+.nav_cart_amount {
+    background-color: #ef4444;
+    font-size: 0.8rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Mobile Menu Styles */
+
+
+
+.mobile {
+    position: fixed;
+    top:2;
+    right: 0;
+    width: 10rem;
+    height: 100vh;
+    border: 0.2rem solid transparent;
+    background-color: beige;
+    z-index: 1;
+}
+
+.logo_mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link_mobile {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.link_mobile li {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.nav_icon_wrapper_mobile {
+    display: none;
+    padding: 1rem;
+}
+
+/* Toggle Styles */
+.bi-menu,
+.bi-x {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+    z-index: 2;
+}
+
+
+/* Media Queries */
+@media (max-width: 1380px) {
+    .navbar {
+        padding-inline: 3rem;
+    }
+}
+
+
+
+@media (max-width: 1084px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap:1.2rem
+    }
+}
+
+
+@media (max-width: 820px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+    .logo_mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .logo_mobile h2{
+        font-size: 1.8rem;
+    }
+    .logo,
+    .nav_icon_wrapper,
+    .link {
+        display: none;
+    }
+
+    .bi-menu,
+    .bi-x {
+            position: fixed;
+            right: 0;
+            top: 0;
+            display: block;
+        
+    }
+
+    .logo_mobile,
+    .link_mobile{
+        display: block;
+    }
+
+    .nav_icon_wrapper_mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 580px) {
+    .navbar h2 {
+        font-size: 1.5rem;
+    }
+
+    .nav_icon {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+}
+

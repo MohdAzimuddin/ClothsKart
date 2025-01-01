@@ -1,0 +1,131 @@
+/* Main container for the order confirmation page */
+.order_confirmation {
+  background: linear-gradient(to bottom right, #f5f5dc, #b2ad90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Heading for the confirmation message */
+  .order_confirmation h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color:#F4A460;
+    margin-bottom: 1.2rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  /* Heading for the Brand message */
+  .order_confirmation h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color:rgba(0, 0, 0, 0.734);
+    margin-top: 4rem;
+  }
+  
+  /* Subheading for additional info */
+  .order_confirmation p {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    margin: 0.7rem 0rem;
+  }
+
+  .end_message {
+    font-size: 1rem;
+    color: #333333cd;
+    font-weight: 500;
+    margin-top: 0.5rem;
+
+  }
+  
+  /* For medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+  /* Main container adjustments */
+  .order_confirmation {
+      padding: 1.5rem;
+  }
+
+  /* Heading font size */
+  .order_confirmation h1 {
+      font-size: 2.5rem;
+  }
+
+  /* Subheading font size */
+  .order_confirmation h2 {
+      font-size: 1.8rem;
+  }
+
+  /* Paragraph font size */
+  .order_confirmation p {
+      font-size: 1.1rem;
+  }
+
+  /* End message font size */
+  .end_message {
+      font-size: 0.9rem;
+  }
+}
+
+/* For small devices (phones, 480px and below) */
+@media (max-width: 480px) {
+  /* Main container adjustments */
+  .order_confirmation {
+      padding: 1rem;
+  }
+
+  /* Heading font size */
+  .order_confirmation h1 {
+      font-size: 2rem;
+  }
+
+  /* Subheading font size */
+  .order_confirmation h2 {
+      font-size: 1.5rem;
+  }
+
+  /* Paragraph font size */
+  .order_confirmation p {
+      font-size: 1rem;
+  }
+
+  /* End message font size */
+  .end_message {
+      font-size: 0.8rem;
+  }
+}
+
+/* For very small devices (phones in portrait mode, 320px and below) */
+@media (max-width: 320px) {
+  /* Main container adjustments */
+  .order_confirmation {
+      padding: 0.8rem;
+  }
+
+  /* Heading font size */
+  .order_confirmation h1 {
+      font-size: 1.7rem;
+  }
+
+  /* Subheading font size */
+  .order_confirmation h2 {
+      font-size: 1.3rem;
+  }
+
+  /* Paragraph font size */
+  .order_confirmation p {
+      font-size: 0.9rem;
+  }
+
+  /* End message font size */
+  .end_message {
+      font-size: 0.7rem;
+  }
+}
+
+ 
+  
