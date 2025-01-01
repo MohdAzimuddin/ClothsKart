@@ -194,7 +194,7 @@ max-width:200% ;
         font-size: 1rem;
     }
 }
-
+ 
 /* For Small Devices (580px and below) */
 @media screen and (max-width: 580px) {
     .hero_left {
