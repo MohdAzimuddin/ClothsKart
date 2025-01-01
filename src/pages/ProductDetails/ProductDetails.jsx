@@ -12,7 +12,7 @@ import { ShopContext } from '../../Components/ShopContext/ShopContext';
 
 import {motion} from "framer-motion";
 
-
+ 
 
 // The ProductDetails component displays detailed information about a specific product
 const ProductDetails = () => {
