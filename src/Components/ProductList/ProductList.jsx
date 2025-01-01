@@ -14,7 +14,7 @@ const ProductList = () => {
       initial={{ opacity: 0, y: -100 }} // Start with 0 opacity and move up by 30px
       animate={{ opacity: 1, y: 0 }} // End with full opacity and no translation
       transition={{ duration: 1, ease: 'easeOut' }} // Animation 
-      
+       
       className="product_list" id="products">
         <h2>Our Classic Collections for Your Lasting Style</h2>
         <div className="product_grid">
