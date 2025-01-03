@@ -59,7 +59,7 @@ This project demonstrates the power of a **React.js** front-end with proper comp
 
 ## **Live Demo**
 
-👉 [ClothsKart Live Demo](https://azimuddin-clothskart.netlify.app/)
+👉 [ClothsKart Live Demo](https://atozlive-news.netlify.app/)
 
 ---
 
