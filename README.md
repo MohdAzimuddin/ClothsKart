@@ -1,5 +1,3 @@
-# React + Vite
-
 # **ClothsKart**  
 *Classic Suits for Men and Women*
 
